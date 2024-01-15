@@ -1,4 +1,5 @@
 import Carousel from "./Carousel";
+import SlickCarousel from "./SlickCarousel";
 
 const App = () => {
   const person = {
@@ -10,8 +11,9 @@ const App = () => {
 
   return (
     <main>
-      <h2>Slider Starter</h2>
-      <Carousel person={person} />
+      {/* <h2>Slider Starter</h2>
+      <Carousel person={person} /> */}
+      <SlickCarousel />
     </main>
   );
 };
